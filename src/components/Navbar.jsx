@@ -5,19 +5,19 @@ import NavLinks from "./NavLinks"; // Import the NavLinks component
 import { useEffect, useState } from "react";
 
 const themes = {
-  corporate: "corporate",
-  business: "business",
+  cmyk: "cmyk",
+  night: "night",
 };
 
 const getThemeFromLocalStorage = () => {
-  return localStorage.getItem("theme") || themes.corporate;
+  return localStorage.getItem("theme") || themes.cmyk;
 };
 
 const Navbar = () => {
   const [theme, setTheme] = useState(getThemeFromLocalStorage);
   const handleTheme = () => {
-    const { corporate, business } = themes;
-    const newTheme = theme === business ? corporate : business;
+    const { cmyk, night } = themes;
+    const newTheme = theme === night ? cmyk : night;
     setTheme(newTheme);
   };
 
