@@ -14,10 +14,11 @@ const About = () => {
         </div>
       </div>
       <p className="mt-6 text-lg leading-8 max-w-2xl mx-auto">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum suscipit
-        nihil nemo quaerat, repellat alias doloribus ex modi corrupti ipsum nam
-        cumque minima explicabo facere voluptate et. Doloremque, veniam nesciunt
-        consectetur ullam iste, sed fugiat quidem, soluta iusto ut quia?
+        At ComfyShop, comfort is more than a word—it’s our philosophy. We’re
+        passionate about bringing ease and style into your life, making every
+        corner of your space feel just right. Whether you’re unwinding after a
+        long day or creating a cozy spot to share with loved ones, we’re here to
+        make comfort your everyday reality.
       </p>
     </>
   );

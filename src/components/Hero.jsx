@@ -14,9 +14,11 @@ const Hero = () => {
           Changing the way people shop
         </h1>
         <p className="mt-8 max-w-xl text-lg leading-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          temporibus obcaecati labore, quaerat eos laudantium. Reiciendis,
-          nulla. Assumenda, consequatur. Veniam.
+          At ComfyShop, we believe that shopping should be effortless, tailored,
+          and enjoyable. Our app is designed to provide a seamless experience,
+          helping you discover the perfect pieces to create your ideal living
+          space. From inspiration to checkout, we make comfort more accessible,
+          one click at a time.
         </p>
         <div className="mt-10">
           <Link to="/products" className="btn btn-primary">
